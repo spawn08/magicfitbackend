@@ -10,11 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.spawnai</groupId>
+    <groupId>com.magicfit</groupId>
     <artifactId>middleware</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <name>middleware</name>
-    <description>Middleware for Spawn AI</description>
+    <description>Middleware for Magic Fit</description>
 
     <properties>
         <encoding>UTF-8</encoding>

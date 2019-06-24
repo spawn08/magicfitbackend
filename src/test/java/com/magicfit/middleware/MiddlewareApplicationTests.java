@@ -1,4 +1,4 @@
-package com.spawnai.middleware;
+package com.magicfit.middleware;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

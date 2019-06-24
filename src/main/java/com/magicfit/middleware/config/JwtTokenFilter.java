@@ -1,4 +1,4 @@
-package com.spawnai.middleware.config;
+package com.magicfit.middleware.config;
 
 import java.io.IOException;
 

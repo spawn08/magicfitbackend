@@ -1,4 +1,4 @@
-package com.spawnai.middleware.config;
+package com.magicfit.middleware.config;
 
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

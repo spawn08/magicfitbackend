@@ -1,6 +1,6 @@
-package com.spawnai.middleware.interfaces;
+package com.magicfit.middleware.interfaces;
 
-import com.spawnai.middleware.models.User;
+import com.magicfit.middleware.models.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UserRepository extends MongoRepository<User, String> {

@@ -1,4 +1,4 @@
-package com.spawnai.middleware.controllers;
+package com.magicfit.middleware.controllers;
 
 public class AuthBody {
 

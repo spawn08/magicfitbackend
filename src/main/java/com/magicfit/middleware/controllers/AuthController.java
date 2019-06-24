@@ -1,14 +1,9 @@
-package com.spawnai.middleware.controllers;
+package com.magicfit.middleware.controllers;
 
-import static org.springframework.http.ResponseEntity.ok;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import com.spawnai.middleware.config.JwtTokenProvider;
-import com.spawnai.middleware.interfaces.UserRepository;
-import com.spawnai.middleware.models.User;
-import com.spawnai.middleware.services.CustomUserDetailsService;
+import com.magicfit.middleware.config.JwtTokenProvider;
+import com.magicfit.middleware.interfaces.UserRepository;
+import com.magicfit.middleware.models.User;
+import com.magicfit.middleware.services.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -19,6 +14,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import static org.springframework.http.ResponseEntity.ok;
 
 
 @RestController

@@ -1,7 +1,7 @@
-package com.spawnai.middleware.config;
+package com.magicfit.middleware.config;
 
-import com.spawnai.middleware.models.Role;
-import com.spawnai.middleware.services.CustomUserDetailsService;
+import com.magicfit.middleware.models.Role;
+import com.magicfit.middleware.services.CustomUserDetailsService;
 import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

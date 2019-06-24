@@ -1,6 +1,6 @@
-package com.spawnai.middleware.interfaces;
+package com.magicfit.middleware.interfaces;
 
-import com.spawnai.middleware.models.Role;
+import com.magicfit.middleware.models.Role;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface RoleRepository extends MongoRepository<Role, String> {

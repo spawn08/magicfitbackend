@@ -1,9 +1,9 @@
-package com.spawnai.middleware.services;
+package com.magicfit.middleware.services;
 
-import com.spawnai.middleware.interfaces.RoleRepository;
-import com.spawnai.middleware.interfaces.UserRepository;
-import com.spawnai.middleware.models.Role;
-import com.spawnai.middleware.models.User;
+import com.magicfit.middleware.models.User;
+import com.magicfit.middleware.interfaces.RoleRepository;
+import com.magicfit.middleware.interfaces.UserRepository;
+import com.magicfit.middleware.models.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

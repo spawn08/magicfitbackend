@@ -1,11 +1,11 @@
-package com.spawnai.middleware.controllers;
+package com.magicfit.middleware.controllers;
 
 
-import com.spawnai.middleware.interfaces.ModelRespository;
-import com.spawnai.middleware.interfaces.UserRepository;
-import com.spawnai.middleware.models.ModelConfiguration;
-import com.spawnai.middleware.models.User;
-import com.spawnai.middleware.utils.WebApplicationUtils;
+import com.magicfit.middleware.interfaces.ModelRespository;
+import com.magicfit.middleware.models.ModelConfiguration;
+import com.magicfit.middleware.interfaces.UserRepository;
+import com.magicfit.middleware.models.User;
+import com.magicfit.middleware.utils.WebApplicationUtils;
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,9 +18,9 @@ import java.util.HashMap;
 import static org.springframework.http.ResponseEntity.ok;
 
 @RestController
-public class SpawnBotRestController {
+public class MagicFitRestController {
 
-    private Logger LOGGER = LoggerFactory.getLogger(SpawnBotRestController.class.getName());
+    private Logger LOGGER = LoggerFactory.getLogger(MagicFitRestController.class.getName());
 
     @Autowired
     private ModelRespository modelRespository;

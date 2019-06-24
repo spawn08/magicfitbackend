@@ -1,4 +1,4 @@
-package com.spawnai.middleware.utils;
+package com.magicfit.middleware.utils;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
