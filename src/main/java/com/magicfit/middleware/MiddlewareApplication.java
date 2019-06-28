@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication(scanBasePackages = "com.spawnai")
+@SpringBootApplication(scanBasePackages = "com.magicfit")
 public class MiddlewareApplication {
 
     public static void main(String[] args) {
