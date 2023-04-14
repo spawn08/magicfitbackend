@@ -20,7 +20,7 @@
         <encoding>UTF-8</encoding>
         <java.version>1.8</java.version>
         <okhttp.version>3.14.1</okhttp.version>
-        <orgjson.version>20180813</orgjson.version>
+        <orgjson.version>20230227</orgjson.version>
         <jwt.version>0.9.1</jwt.version>
         <csv.version>1.5</csv.version>
     </properties>
